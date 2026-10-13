@@ -1,5 +1,12 @@
 # AI-Powered Developer Platform
 
+## Overview
+
+A release gate for an internal developer platform that pairs a service catalog with evaluation. The `POST /check` endpoint passes only when `tests_passed` is set and a template is named, and apply is always false. A versioned `/v1` ops API adds workspaces, tenant isolation, job approval and audit records.
+
+- **Built with:** Python, pytest, Docker, GitHub Actions
+- **Scope:** Local laptop proof with tests; it does not call a hosted model and refuses production apply.
+
 <!-- project-guide:start -->
 ## Project guide
 
